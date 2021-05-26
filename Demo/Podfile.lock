@@ -1,0 +1,34 @@
+PODS:
+  - LoginModule (0.1.0):
+    - Routers
+  - LoginModuleB (0.1.0):
+    - Routers
+  - Routers (0.1.0)
+  - SettingsModule (0.1.0):
+    - Routers
+
+DEPENDENCIES:
+  - LoginModule (from `../LoginModule/`)
+  - LoginModuleB (from `../LoginModuleB/`)
+  - Routers (from `../Routers/`)
+  - SettingsModule (from `../SettingsModule/`)
+
+EXTERNAL SOURCES:
+  LoginModule:
+    :path: "../LoginModule/"
+  LoginModuleB:
+    :path: "../LoginModuleB/"
+  Routers:
+    :path: "../Routers/"
+  SettingsModule:
+    :path: "../SettingsModule/"
+
+SPEC CHECKSUMS:
+  LoginModule: 53b7329d5fada5dfdf5432a8a96cfb4d6838f976
+  LoginModuleB: c280e1a054f7d9364450714ae4527185f6cf603c
+  Routers: 8526c201e442573d86a2e90838bbe2de631d2dcf
+  SettingsModule: 90bb744860b13edee352fb7194a104f49ee2be0b
+
+PODFILE CHECKSUM: e38f72c16e4eec01866b5685bb48ae17c3c6d1d8
+
+COCOAPODS: 1.10.1
